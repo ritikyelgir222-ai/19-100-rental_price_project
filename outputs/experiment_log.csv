@@ -1,0 +1,4 @@
+model,val_rmse,val_mae,val_r2,val_within_20pct
+linear_regression (baseline),247.9,61.75,0.0779,0.3778
+random_forest,241.19,56.2,0.1272,0.4381
+xgboost,242.06,56.4,0.1208,0.4319

@@ -1,0 +1,10 @@
+{
+  "selected_model": "random_forest",
+  "test_rmse_usd": 225.2,
+  "test_mae_usd": 57.83,
+  "test_r2": 0.1554,
+  "test_within_10pct_of_actual": 0.2288,
+  "test_within_20pct_of_actual": 0.431,
+  "n_test_listings": 7331,
+  "note": "R^2 here is expected to be, and is, meaningfully LOWER than Day 17's car-pricing R^2 -- this dataset has no photos, host-quality signal, or real-time seasonal demand, all of which genuinely affect an Airbnb listing's price but aren't observable in this data. A lower R^2 here reflects a harder, more information-poor problem, not a worse model."
+}

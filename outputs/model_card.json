@@ -1,0 +1,24 @@
+{
+  "model_type": "random_forest",
+  "data_source": "New York City Airbnb Open Data (Kaggle: dgomonov/new-york-city-airbnb-open-data)",
+  "n_features": 10,
+  "categorical_features": [
+    "neighbourhood_group",
+    "room_type"
+  ],
+  "numeric_features": [
+    "latitude",
+    "longitude",
+    "minimum_nights",
+    "number_of_reviews",
+    "reviews_per_month",
+    "calculated_host_listings_count",
+    "availability_365",
+    "has_reviews"
+  ],
+  "training_rows": 34208,
+  "test_mae_usd": 57.83,
+  "test_within_20pct_of_actual": 0.431,
+  "intended_use": "Suggest a starting nightly price for a new or repriced short-term rental listing.",
+  "known_limitations": "2019 NYC snapshot only -- no photos, host-quality signal, or real-time seasonal/event-driven demand, all of which genuinely affect short-term rental pricing but aren't observable in this dataset. Should not be assumed to transfer to a different city, a later time period, or a market shaped by short-term-rental regulation changes."
+}
